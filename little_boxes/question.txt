@@ -1,0 +1,14 @@
+Consignesu:
+Ecrivez une fonction qui reçoit en premier paramètre une chaîne de caractères ASCII.
+
+Votre fonction devra renvoyer une chaîne contenant les mêmes caractères que la chaîne originale, triés dans l'ordre ASCII.
+
+Contraintes:
+Votre algorithme devra avoir une complexité temps en O(n), où n est la longueur de la chaîne de caractères traitée.
+Par ailleurs, votre algorithme devra avoir une complexité mémoire constante.
+
+Exemples:
+
+Entrée:	        Sortie:
+little_boxes	_beeillosttx
+HelloWorld	    HWdellloor

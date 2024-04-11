@@ -1,0 +1,15 @@
+Consignes:
+Ecrivez une fonction qui reçoit en premier paramètre un entier naturel n.
+
+Votre fonction devra générer les représentations en binaire de tous les nombres compris entre 1 et n inclus. Ces représentations doivent être retournées sous forme d'un tableau de chaînes de caractères, dans l'ordre croissant.
+
+Contraintes:
+Vous ne devez pas utiliser de conversion d'une base vers une autre.
+Votre algorithme devra avoir une complexité temps en O(n), où n correspond au paramètre reçu.
+
+Exemples:
+
+Entrée:	    Sortie:
+2	        ["1", "10"]
+3	        ["1", "10", "11"]
+4	        ["1", "10", "11", "100"]

@@ -1,0 +1,21 @@
+Consignes:
+Ecrivez une fonction qui reçoit en paramètre une chaîne de caractères.
+
+Votre fonction devra renvoyer une nouvelle chaîne correspondant à celle reçue en paramètre, en unissant chacun des doublons.
+
+Contraintes:
+Votre solution devra avoir une complexité en temps de O(n), où n est la longueur de la chaîne reçue.
+
+Exemples:
+
+Entrée:	                Sortie:
+abcde	                abcde
+abbcdde	                abcde
+abcdeab	                abcde
+GABELAWGABRIELYULAW	    GABELWRIYU
+
+Retour:
+Votre retour de fonction ne doit pas forcément contenir les caractères dans leur ordre d'apparition dans l'input.
+Ainsi l'input aab par exemple accepte 2 outputs valides :
+ab
+ba

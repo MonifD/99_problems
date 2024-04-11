@@ -1,0 +1,22 @@
+Consignes:
+Ecrivez une fonction qui reçoit en premier paramètre une chaîne de caractères contenant n'importe quelle combinaison de parenthèses, de crochets ou de guillemets (simples ou doubles).
+
+Votre fonction devra s'assurer que chaque caractère "ouvrant" de la chaîne possède bien un caractère "fermant" correspondant situé après lui dans la chaîne (et inversement : tout caractère "fermant" doit posséder un caractère "ouvrant" correspondant situé avant lui).
+
+Si c'est bien le cas, elle devra retourner true. Sinon, elle devra retourner false.
+
+Contraintes:
+Votre solution devra avoir une complexité en temps de O(n), où n est la longueur de la chaîne reçue.
+
+Exemples:
+
+Entrée:	    Sortie:
+()	        true
+][	        false
+([])	    true
+(	        false
+(()	        false
+[(])	    true
+[)	        false
+""	        true
+'"	        false

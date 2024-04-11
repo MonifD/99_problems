@@ -1,0 +1,22 @@
+Consignes
+Ecrivez une fonction qui reçoit :
+
+en premier paramètre un tableau d'entiers numbers
+en second paramètre un entier k, utilisable comme index dans le tableau
+Votre fonction devra déterminer si le tableau est partitionné et si l'élément à l'index k est un pivot.
+
+Si c'est le cas, elle devra retourner true. Si ce n'est pas le cas, elle devra retourner false.
+
+Contraintes:
+Votre solution devra avoir une complexité en temps de O(n), où n est la longueur du tableau reçu.
+
+Définitions:
+Un tableau est partitionné avec un pivot à l'index k si et seulement si :
+tous les éléments qui précèdent l'index k dans le tableau sont strictement inférieurs à la valeur à l'index k
+tous les éléments qui suivent l'index k dans le tableau sont supérieurs ou sont égaux à la valeur à l'index k
+
+Exemples:
+Entrée	                            Sortie
+[100, 97, 101, 109, 111, 110], 1	false
+[100, 97, 101, 109, 111, 110], 2	true
+[100, 97, 101, 109, 111, 110], 3	true

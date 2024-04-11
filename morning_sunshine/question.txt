@@ -1,0 +1,14 @@
+Consignes:
+Ecrivez une fonction qui reçoit en premier paramètre un tableau d'entiers numbers.
+
+Votre fonction devra retourner un tableau contenant uniquement les éléments du tableau reçu qui sont strictement supérieurs à tous ceux situés après eux.
+
+Contraintes:
+Votre algorithme devra avoir une complexité temps en O(n), où n correspond à la longueur du tableau reçu.
+
+Exemples:
+
+Entrée:	            Sortie:
+[12, 3, 5, 2, 4]	[12, 5, 4]
+[5, 4, 3, 2, 1]	    [5, 4, 3, 2, 1]
+[1, 2, 3, 4, 5]	    [5]

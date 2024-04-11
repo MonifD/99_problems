@@ -1,0 +1,14 @@
+Consignes:
+Ecrivez une fonction qui reçoit en paramètre une chaîne de caractères.
+
+Si la chaîne contient des doublons, votre fonction devra renvoyer true, si elle n'en contient pas, elle devra renvoyer false.
+
+Contraintes:
+Votre solution devra avoir une complexité en temps de O(n), où n est la longueur de la chaîne reçue.
+
+Exemples:
+
+Entrée:	    Sortie:
+abcde	    false
+abbcdde	    true
+abcdeab	    true

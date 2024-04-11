@@ -1,0 +1,15 @@
+Consignes:
+Ecrivez une fonction qui reçoit en premier paramètre une chaîne de caractères.
+
+Votre fonction devra déterminer si l'une des permutations possibles de cette chaîne est un palindrome.
+
+Si c'est le cas, elle devra retourner true. Si ce n'est pas le cas, elle devra retourner false.
+
+Contraintes:
+Votre solution devra avoir une complexité en temps de O(n), où n est la longueur de la chaîne reçue.
+
+Exemples:
+
+Entrée	    Sortie
+falafel	    true (car lfaeafl est un palindrome)
+abc	        false

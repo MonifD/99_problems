@@ -1,0 +1,20 @@
+Consignes:
+Ecrivez une fonction qui reçoit en premier paramètre un tableau d'entiers numbers.
+
+Votre fonction devra déterminer si le tableau est partitionné et retourner l'index d'un des pivots.
+Si le tableau n'est pas partitionné, elle devra retourner -1.
+
+Contraintes:
+Votre algorithme devra avoir une complexité temps en O(n), où n correspond à la longueur du tableau reçu.
+
+Définitions:
+Un tableau est partitionné avec un pivot à l'index k si et seulement si :
+
+tous les éléments qui précèdent l'index k dans le tableau sont strictement inférieurs à la valeur à l'index k
+tous les éléments qui suivent l'index k dans le tableau sont supérieurs ou sont égaux à la valeur à l'index k
+
+Exemples:
+Entrée:	                            Sortie:
+[100, 97, 101, 109, 111, 110]	    2 ou 3
+[116, 117, 120]	                    0, 1 ou 2
+[97, 98, 97, 99, 117, 108, 101]	    0 ou 3

@@ -1,0 +1,13 @@
+Consignes:
+Ecrivez une fonction qui reçoit en premier paramètre une liste de nombres entiers.
+
+Votre fonction devra renvoyer une nouvelle liste en ne conservant que les nombres qui figurent une seule fois dans la liste originale.
+
+Contraintes:
+Votre solution devra avoir une complexité en temps de O(n), où n est la longueur du tableau reçu.
+
+Exemples:
+
+Entrée:	                    Sortie:
+[1, 2, 3, 4, 5]	            [1, 2, 3, 4, 5]
+[1, 2, 2, 3, 4, 4, 5]	    [1, 3, 5]
