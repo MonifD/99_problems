@@ -25,7 +25,7 @@ Puisque la fonction ne fait qu'itérer à travers le tableau une seule fois sans
 Cette efficacité permet d'utiliser la fonction daemon de manière optimale même avec des tableaux de données volumineux, ce qui la rend particulièrement adaptée à des applications nécessitant des performances élevées.
 
 # pour testé 
-``JS
+```Javascript 
 console.log(daemon([100, 97, 101, 109, 111, 110], 1)); `false`
 console.log(daemon([100, 97, 101, 109, 111, 110], 2)); `true`
 console.log(daemon([100, 97, 101, 109, 111, 110], 3)); `true`
